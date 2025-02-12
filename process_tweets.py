@@ -152,7 +152,7 @@ class TweetProcessor:
         if "geo" in tweet and tweet["geo"]:
             yaml_content.append(f"geo: {json.dumps(tweet['geo'])}")
             
-        # Add x.com link
+        # Add x.com com
         # todo handle retweets
         yaml_content.append(f"x_link: https://x.com/{X_USERNAME}/status/{tweet['id_str']}")
             
