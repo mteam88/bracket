@@ -1,0 +1,15 @@
+flask==3.0.2
+faiss-cpu==1.7.4
+sentence-transformers==2.5.1
+pyyaml==6.0.1
+numpy==1.26.4
+markdown==3.5.2
+llama-index
+llama-index-vector-stores-chroma
+chromadb
+llama-index-embeddings-huggingface
+llama-index-llms-openai
+openai
+llama-index-llms-gemini
+google-generativeai
+streamlit>=1.31.0
